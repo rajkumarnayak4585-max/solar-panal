@@ -1,0 +1,330 @@
+ 
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raj Kumar Nayak | Solar Energy</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f9ff;
+  color: #123047;
+  line-height: 1.7;
+}
+
+header {
+  background: linear-gradient(135deg, #052b50, #087e8b);
+  color: white;
+  text-align: center;
+  padding: 35px 15px;
+}
+
+header h1 {
+  font-size: 34px;
+}
+
+header p {
+  margin-top: 8px;
+}
+
+nav {
+  background: #063653;
+  padding: 14px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd447;
+}
+
+.hero {
+  min-height: 370px;
+  padding: 55px 20px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(120deg, #075985, #0e7490);
+}
+
+.sun {
+  font-size: 75px;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from { transform: scale(1); }
+  to { transform: scale(1.12); }
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: #ffd447;
+  color: #123047;
+  padding: 12px 24px;
+  border-radius: 25px;
+  margin-top: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+section h2 {
+  text-align: center;
+  color: #075985;
+  margin-bottom: 22px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: white;
+  padding: 22px;
+  border-radius: 15px;
+  box-shadow: 0 4px 14px #00000012;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card .emoji {
+  font-size: 45px;
+}
+
+.card h3 {
+  color: #087e8b;
+  margin: 8px 0;
+}
+
+.info {
+  background: #dff6ff;
+  border-radius: 15px;
+  padding: 25px;
+  margin-top: 15px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #087e8b;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+footer {
+  background: #052b50;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  header h1 { font-size: 27px; }
+  nav a {
+    display: inline-block;
+    margin: 5px 8px;
+  }
+  .hero h2 { font-size: 25px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>☀️ Solar Energy World</h1>
+  <p>सौर ऊर्जा अपनाओ, पृथ्वी को बचाओ!</p>
+  <p>Student Project: Raj Kumar Nayak | Class 9th</p>
+</header>
+
+<nav>
+  <a href="#home">होम</a>
+  <a href="#solar">सोलर पैनल</a>
+  <a href="#planets">सौर मंडल</a>
+  <a href="#benefits">फायदे</a>
+  <a href="#about">मेरे बारे में</a>
+</nav>
+
+<div class="hero" id="home">
+  <div class="sun">☀️</div>
+  <h2>सूर्य से बिजली बनाएं!</h2>
+  <p>Clean Energy, Green Earth</p>
+  <p>सौर ऊर्जा हमारे भविष्य के लिए एक स्वच्छ और नवीकरणीय ऊर्जा स्रोत है।</p>
+  <a href="#solar" class="btn">अभी जानें</a>
+</div>
+
+<section id="solar">
+  <h2>🔆 सोलर पैनल क्या है?</h2>
+  <div class="info">
+    <p>
+      सोलर पैनल एक ऐसा उपकरण है जो सूर्य की रोशनी को बिजली में
+      बदलता है। इसमें फोटोवोल्टाइक (PV) सेल होते हैं।
+      इनसे घरों, स्कूलों, दुकानों और कई अन्य जगहों पर बिजली
+      बनाई जा सकती है।
+    </p>
+    <p><b>मुख्य भाग:</b> सोलर पैनल, इन्वर्टर, वायर और जरूरत के अनुसार बैटरी।</p>
+  </div>
+</section>
+
+<section id="planets">
+  <h2>🌍 हमारा सौर मंडल</h2>
+  <p style="text-align:center; margin-bottom:20px">
+    सूर्य के चारों ओर 8 ग्रह परिक्रमा करते हैं।
+    किसी ग्रह पर जीवन की संभावना जानने के लिए वैज्ञानिक शोध करते हैं।
+  </p>
+
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">☀️</div>
+      <h3>सूर्य (Sun)</h3>
+      <p>हमारे सौर मंडल का तारा और ऊर्जा का मुख्य स्रोत।</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🌑</div>
+      <h3>बुध (Mercury)</h3>
+      <p>सूर्य के सबसे नजदीक और सबसे छोटा ग्रह।</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🟡</div>
+      <h3>शुक्र (Venus)</h3>
+      <p>सौर मंडल का सबसे गर्म ग्रह।</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🌍</div>
+      <h3>पृथ्वी (Earth)</h3>
+      <p>हमारा घर, जहां जीवन मौजूद है।</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🔴</div>
+      <h3>मंगल (Mars)</h3>
+      <p>लाल ग्रह, जिस पर वैज्ञानिक अध्ययन कर रहे हैं।</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🟠</div>
+      <h3>बृहस्पति (Jupiter)</h3>
+      <p>सौर मंडल का सबसे बड़ा ग्रह।</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🪐</div>
+      <h3>शनि (Saturn)</h3>
+      <p>अपने सुंदर छल्लों के लिए प्रसिद्ध ग्रह।</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🔵</div>
+      <h3>अरुण (Uranus)</h3>
+      <p>एक बहुत ठंडा ग्रह, जो अपनी धुरी पर अत्यधिक झुका है।</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🌌</div>
+      <h3>वरुण (Neptune)</h3>
+      <p>सूर्य से सबसे दूर स्थित आठवां ग्रह।</p>
+    </div>
+  </div>
+</section>
+
+<section id="benefits">
+  <h2>🌱 सोलर ऊर्जा के फायदे</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">🌍</div>
+      <h3>स्वच्छ ऊर्जा</h3>
+      <p>बिजली बनाते समय सोलर पैनल सीधे धुआं नहीं छोड़ते।</p>
+    </div>
+    <div class="card">
+      <div class="emoji">💰</div>
+      <h3>बिजली की बचत</h3>
+      <p>उचित सिस्टम लगाने पर बिजली के बिल में बचत हो सकती है।</p>
+    </div>
+    <div class="card">
+      <div class="emoji">♻️</div>
+      <h3>नवीकरणीय स्रोत</h3>
+      <p>सूर्य की ऊर्जा प्राकृतिक रूप से लगातार मिलती रहती है।</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>🧠 छोटा सा क्विज</h2>
+  <div class="info" style="text-align:center">
+    <p><b>प्रश्न:</b> सौर मंडल में कुल कितने ग्रह हैं?</p>
+    <button onclick="checkAnswer(8)">8 ग्रह</button>
+    <button onclick="checkAnswer(9)">9 ग्रह</button>
+    <p id="result" style="margin-top:15px;font-weight:bold"></p>
+  </div>
+</section>
+
+<section id="about">
+  <h2>👨‍🎓 मेरे बारे में</h2>
+  <div class="info" style="text-align:center">
+    <h3>Raj Kumar Nayak</h3>
+    <p>Class: 9th</p>
+    <p>Project: Solar Panel & Solar System</p>
+    <p>उद्देश्य: सौर ऊर्जा और हमारे सौर मंडल के बारे में सीखना।</p>
+  </div>
+</section>
+
+<footer>
+  <p>☀️ Solar Energy World</p>
+  <p>Created by Raj Kumar Nayak | Class 9th</p>
+  <p>Save Energy, Save Earth 🌍</p>
+  <p>© 2026 Student Project</p>
+</footer>
+
+<script>
+function checkAnswer(answer) {
+  const result = document.getElementById("result");
+
+  if (answer === 8) {
+    result.textContent = "🎉 बिल्कुल सही! सौर मंडल में 8 ग्रह हैं।";
+    result.style.color = "green";
+  } else {
+    result.textContent = "❌ फिर से कोशिश करें!";
+    result.style.color = "red";
+  }
+}
+</script>
+
+</body>
+</html>
